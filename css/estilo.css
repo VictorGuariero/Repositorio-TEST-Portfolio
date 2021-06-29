@@ -1,0 +1,224 @@
+/*
+* {
+    font-family: 'Roboto', sans-serif;
+}
+*/
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    height: 1200px;
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    border: 10px solid rgb(255, 255, 255);
+    margin: auto;
+}
+/* Logo*/
+.logo {
+    position: relative;
+    left: -35%;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+
+.logoinicio{
+    position: relative;
+    right: 3px;
+    bottom: 2px;
+    left: 3px;
+    width: 180px;
+    height: 180px;
+}
+/* Barra de Navegação 1*/
+#nav-bar{
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+}
+.github-img{
+    position: absolute;
+    bottom: 128px;
+    left: -29px;
+    width: 24px;
+    height: 24px;
+    margin: 5px;
+    border: 2px solid #000000;
+    border-radius: 50%;
+}
+
+.whats-img{
+    position: absolute;
+    bottom: 129px;
+    left: -60px;
+    width: 35.5px;
+    height: 35.5px;
+}
+/* cadastro e Login*/
+.cadastro-login {
+    position: relative;
+    bottom: 156px;
+    left: 76%;
+    margin: auto;
+    cursor: pointer;
+}
+.cadastro-login .cadastro{
+    font-size: 17px;
+    line-height: 18px;
+    font-weight: 300;
+    color: black;
+    border: 2px solid #041a34;
+    padding: 3px 10px;
+    border-radius: 23px 6px
+    
+}
+
+.cadastro-login .cadastro:hover{
+    color: #072e5d6e;
+    border: 2px solid #072e5d6e;
+    padding: 3px 10px;
+}
+.cadastro-login .login{
+    font-size: 17px;
+    line-height: 18px;
+    font-weight: 300;
+    color: black;
+    border: 2px solid #041a34;
+    padding: 3px 10px;
+    border-radius: 23px 6px
+}
+.cadastro-login .login:hover{
+    color: #072e5d6e;
+    border: 2px solid #072e5d6e;
+    padding: 3px 10px;
+}
+
+/* Whatsapp e GitHub*/
+.social-media {
+    position: relative;
+    left: 75%;
+    margin: auto;
+}
+.social-media .whats-top{
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+.social-media .whats-top:hover{
+    color: rgba(0, 0, 0, 0.289);
+}
+.social-media .github-top{
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+.social-media .github-top:hover{
+    color: rgba(0, 0, 0, 0.289);
+}
+
+/* Barra de Navegação 2*/
+
+
+.navbar {
+    position: relative;
+    width: 80%;
+    right: -300px;
+}
+/* Produtos*/
+.navbar .click-produtos {
+    font-size: 20px;
+    position: relative;
+    padding: 15px;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+.navbar .click-produtos:hover{
+    color: rgba(0, 0, 0, 0.289);
+}
+/* Atendimento*/
+.navbar .click-atendimento {
+    font-size: 20px;
+    position: relative;
+    padding: 15px;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+.navbar .click-atendimento:hover{
+    color: rgba(0, 0, 0, 0.289);
+}
+/* Fale conosco*/
+.navbar .click-fale {
+    font-size: 20px;
+    position: relative;
+    padding: 15px;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+.navbar .click-fale:hover{
+    color: rgba(0, 0, 0, 0.289);
+}
+/* Trabalhe conosco*/
+.navbar .click-trabalhe {
+    font-size: 20px;
+    position: relative;
+    padding: 15px;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+.navbar .click-trabalhe:hover{
+    color: rgba(0, 0, 0, 0.289);
+}
+/* Faça sua cotação*/
+.navbar .click-cotacao {
+    font-size: 20px;
+    position: relative;
+    padding: 15px;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+.navbar .click-cotacao:hover{
+    color: rgba(0, 0, 0, 0.289);
+}
+/* links main home*/
+.link-corporativo {
+    font-size: 15px;
+    position: relative;
+    padding: 15px;
+    color: #041a34;
+    cursor: pointer;
+    text-decoration: none;
+}
+.link-corporativo:hover{
+    color: rgba(0, 0, 0, 0.289);
+}
+
+.link-desenvolvimento {
+    font-size: 15px;
+    position: relative;
+    padding: 15px;
+    color: #041a34;
+    cursor: pointer;
+    text-decoration: none;
+}
+.link-desenvolvimento:hover{
+    color: rgba(0, 0, 0, 0.289);
+}
+
+/* Footer*/
+footer{
+    position: relative;
+    bottom: -45%;
+    text-align: center;
+
+}
+.solucoes strong {
+    font-size: large;
+}
+

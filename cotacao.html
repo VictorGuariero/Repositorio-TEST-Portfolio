@@ -1,85 +1,129 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
+    <head> 
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="estilo.css" type="text/css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Cotação - TNB TEC</title>
+        <link rel="stylesheet" href="css/estilo.css" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" >
+        <title>TNB TEC - Technology for your business</title>
+        
     </head>
     <body>
-    <!-- Início do Menu -->
-    <header>
-        <nav>
-            <a class="logoinicio" href="index.html"><img width="100px" src="./imagens/LOGO.png" alt="Home e Sobre Nós - Logo TNB TEC"></a>
-            <a class="whatsapptop" click-buttom href="https://api.whatsapp.com/send?phone=5511940450628"target="_blank" rel="external"
-            alt="botão para whatsapp">whatsapp</a>
-            <a class="githubtop" href="https://github.com/VictorGuariero" target="_blank" rel="external" alt= "botão para github">github</a>
-        </nav>    
-            <hr class="rowtop">
+        <!--
+        <table width="100%">
+            <tr>
+                <td> <a href="index.html"><img width="100px" src="./imagens/LOGO.png" alt="Home - Logo TNB TEC"></a></td>
+                <td> <a href="sobre.nos.html">Sobre nós</a></td>
+                <td> <a href="produtos.html">Produtos</a></td>
+                <td> <a href="horario.de.atendimento.html">Horário de atendimento</a></td>
+                <td> <a href="fale.conosco.html">Fale conosco</a></td>
+                <td> <a href="trabalhe.conosco.html">Trabalhe conosco</a></td>
+                <td> <a href="cotacao.html">Faça sua cotação</a></td>
+            </tr>
+        </table> 
+    
+        Primeira estrutura de menu aprendida    -->     
+     <!-- Início do Menu -->
+     <header>
+        <div>
+            <nav id="nav-bar">
+                <div class="logo">
+                <a href="index.html"><img class="logoinicio" src="./img/LOGO.png" alt="Home e Sobre Nós - Logo TNB TEC"></a>
+                </div>
 
-        <nav class="navbar"></nav>
-            <a href="produtos.html">Produtos</a>
-            <a href="horario.de.atendimento.html">Horário de atendimento</a>
-            <a href="fale.conosco.html">Fale conosco</a>
-            <a href="trabalhe.conosco.html">Trabalhe conosco</a>
-            <a href="cotacao.html">Faça sua cotação</a>       
-        </nav>
-    </header>
-    </header>
-    <!-- Fim do Menu -->
+                <div  class="social-media">
+                <a class="whats-top" click-buttom href="https://api.whatsapp.com/send?phone=5511940450628"target="_blank" rel="external"
+                alt="botão para whatsapp">
+                    <img class="whats-img"src="./img/whats-business.png" alt="Whatsapp"></a>
+
+                <a class="github-top" href="https://github.com/VictorGuariero" target="_blank" rel="external" alt= "botão para github">
+                    <img class="github-img" src="./img/github.png" alt="GitHub"></a>
+                </div>
+
+                <div class="cadastro-login">
+                    <a class="cadastro" href="cadastro.html" alt="botão para cadastro">Cadastre-se</a>
+                    <a class="login"href="login.html" alt="botão para logar">Login</a>
+                </div>
+            
+            </nav>  
+            
+        </div>  
+    
+        <hr class="rowtop">
+
+        <div class="navbar">
+            <nav>
+                <a class="click-produtos" href="produtos.html">Produtos</a>
+                <a class="click-atendimento" href="horario.de.atendimento.html">Horário de atendimento</a>
+                <a class="click-fale" href="fale.conosco.html">Fale conosco</a>
+                <a class="click-trabalhe" href="trabalhe.conosco.html">Trabalhe conosco</a>
+                <a class="click-cotacao" href="cotacao.html">Faça sua cotação</a>       
+            </nav>
         
+        </div>
+        
+    </header>
+<!-- Fim do Menu -->   
+        
+    <main class="maincotacao">
+        <div class="maincotacao">
         <h2>NOS ENVIE SUA DEMANDA</h2>
+        </div>
+        <div class="maincotacao">
+            <form>
+                <table>
+                
+                <td><input type="text" placeholder="Quantidade"class="form-input"></td>
+                    <br>
+                <td><input type="text" placeholder="Part Number"class="form-input"></td>
+                    <br>
+                <td><textarea style="width: 400px;" placeholder="Descreva o Produto"class="form-input"></textarea> </td>
+                <br>
+                </table>
+                <input type="submit">
+            </form>
+            <form>
+                <table>
+                
+                <td><input type="text" placeholder="Quantidade" class="form-input"></td>
+                    <br>
+                <td><input type="text" placeholder="Part Number" class="form-input"></td>
 
-        <form>
-            <table>
-            
-            <td><input type="text" placeholder="Quantidade"></td>
-
-            <td><input type="text" placeholder="Part Number"></td>
-
-            <td><textarea style="width: 400px;" placeholder="Descreva o Produto"></textarea> </td>
-            <br>
-             </table>
-             <input type="submit">
-        </form>
-        <form>
-            <table>
-            
-            <td><input type="text" placeholder="Quantidade"></td>
-
-            <td><input type="text" placeholder="Part Number"></td>
-
-            <td><textarea style="width: 400px;" placeholder="Descreva o Produto"></textarea> </td>
-            <br>
-             </table>
-             <input type="submit">
-        </form>
-        <form>
-            <table>
-            
-            <td><input type="text" placeholder="Quantidade"></td>
-
-            <td><input type="text" placeholder="Part Number"></td>
-
-            <td><textarea style="width: 400px;" placeholder="Descreva o Produto"></textarea> </td>
-            <br>
-             </table>
-             <input type="submit">
-        </form>
-        <form>
-            <table>
-            
-            <td><input type="text" placeholder="Quantidade"></td>
-
-            <td><input type="text" placeholder="Part Number"></td>
-
-            <td><textarea style="width: 400px;" placeholder="Descreva o Produto"></textarea> </td>
-            <br>
-             </table>
-             <input type="submit">
-        </form>
-
-
+                <td><textarea style="width: 400px;" placeholder="Descreva o Produto" class="form-input"></textarea> </td>
+                <br>
+                </table>
+                <input type="submit">
+            </form>
+            <form>
+                <table>
+                
+                <td><input type="text" placeholder="Quantidade"></td>
+                <br>
+                <td><input type="text" placeholder="Part Number"></td>
+                <br>
+                <td><textarea style="width: 400px;" placeholder="Descreva o Produto"></textarea> </td>
+                <br>
+                </table>
+                <input type="submit">
+            </form>
+            <form>
+                <table>
+                
+                <td><input type="text" placeholder="Quantidade"></td>
+                <br>
+                <td><input type="text" placeholder="Part Number"></td>
+                <br>
+                <td><textarea style="width: 400px;" placeholder="Descreva o Produto"></textarea> </td>
+                <br>
+                </table>
+                <input type="submit">
+            </form>
+        </div>
+    </main>
 
         <footer id="copyrite">
 

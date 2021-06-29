@@ -67,29 +67,52 @@
             </div>
             
         </header>
-    <!-- Fim do Menu -->     
-       <main>
-            <div class="main">
-                <h1>HORÁRIO DE ATENDIMENTO</h1>
-            </div>
+    <!-- Fim do Menu -->    
+        <main>
+            <div class="container">
+                <div class="form-box">
+                    <form action="painel.html" method="post">
+                        <div>
+                            <h1>Cadastro</h1>
+                        </div>
         
+                        <div>
+                            <input type="text" name="username" placeholder="Informe seu login" class=form-input>
+                        </div>
+        
+                        <div>
+                            <input type="password" name="password" placeholder="Digite sua senha" minlength="6" maxlength="10" 
+                            class=form-input>
+                        </div>
 
-            <div class="horario">  
-                <p> 
-                    <ul type=none>
-                        <li>Seg - Sex: 7:30 - 18:30</li> <br>
-                        <li>Sáb: 7:30 - 10:00</li> <br>
-                        <li></li>Dom: fechado</li>
-                    </ul>
-                </p>
-            </div>      
-        <br>
-            <p> <strong> ENTRE EM CONTATO </strong>  </p>
+                        <div>
+                            <input type="password" name="password" placeholder="Digite sua senha mais uma vez" minlength="6" maxlength="10"
+                            class=form-input>
+                        </div>
 
+                        <div>
+                            <input type="tel" name="tel" placeholder="Seu contato" class=form-input>
+                        </div>
+
+                        <div>
+                            <input type="email" name="email" placeholder="Seu e-mail" class=form-input>
+                        </div>
+        
+                        <div>
+                            <input type="submit" value="Cadastrar" class="form-btn">
+                        </div>
+        
+                        <div>
+                            Já tem uma conta? <a href="login.html">Efetue login</a>.
+                        </div>
+                    </form>
+                </div>
+            </div>
         </main>
-          <footer id="copyrite">
+
+        <footer id="copyrite">
             <p>11 2735-4962</p>
-            <p> &copy; Todos os Direitos Reservados  <br> CNPJ: 26.239.457/0001-47 <br>  </p>
+            <p> &copy; Todos os Direitos Reservados  <br> CNPJ: 26.239.457/0001-47 <br>  </p>               
         </footer>
-</body>
-</html> 
+    </body>
+</html>

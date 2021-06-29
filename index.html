@@ -2,13 +2,17 @@
 <html lang="pt-br">
     <head> 
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="estilo.css" type="text/css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/estilo.css" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" >
         <title>TNB TEC - Technology for your business</title>
         
     </head>
     <body>
-    <!--
+        <!--
         <table width="100%">
             <tr>
                 <td> <a href="index.html"><img width="100px" src="./imagens/LOGO.png" alt="Home - Logo TNB TEC"></a></td>
@@ -22,28 +26,50 @@
         </table> 
     
         Primeira estrutura de menu aprendida    -->     
-    <!-- Início do Menu -->    
+    <!-- Início do Menu -->
         <header>
-            <nav>
-                <a class="logoinicio" href="index.html"><img width="100px" src="./imagens/LOGO.png" alt="Home e Sobre Nós - Logo TNB TEC"></a>
-                <a class="whatsapptop" click-buttom href="https://api.whatsapp.com/send?phone=5511940450628"target="_blank" rel="external"
-                alt="botão para whatsapp">whatsapp</a>
-                <a class="githubtop" href="https://github.com/VictorGuariero" target="_blank" rel="external" alt= "botão para github">github</a>
-            </nav>    
-                <hr class="rowtop">
+            <div>
+                <nav id="nav-bar">
+                    <div class="logo">
+                    <a href="index.html"><img class="logoinicio" src="./img/LOGO.png" alt="Home e Sobre Nós - Logo TNB TEC"></a>
+                    </div>
 
-            <nav class="navbar"></nav>
-                <a href="produtos.html">Produtos</a>
-                <a href="horario.de.atendimento.html">Horário de atendimento</a>
-                <a href="fale.conosco.html">Fale conosco</a>
-                <a href="trabalhe.conosco.html">Trabalhe conosco</a>
-                <a href="cotacao.html">Faça sua cotação</a>       
-            </nav>
+                    <div  class="social-media">
+                    <a class="whats-top" click-buttom href="https://api.whatsapp.com/send?phone=5511940450628"target="_blank" rel="external"
+                    alt="botão para whatsapp">
+                        <img class="whats-img"src="./img/whats-business.png" alt="Whatsapp"></a>
+
+                    <a class="github-top" href="https://github.com/VictorGuariero" target="_blank" rel="external" alt= "botão para github">
+                        <img class="github-img" src="./img/github.png" alt="GitHub"></a>
+                    </div>
+
+                    <div class="cadastro-login">
+                        <a class="cadastro" href="cadastro.html" alt="botão para cadastro">Cadastre-se</a>
+                        <a class="login"href="login.html" alt="botão para logar">Login</a>
+                    </div>
+                
+                </nav>  
+                
+            </div>  
+        
+            <hr class="rowtop">
+
+            <div class="navbar">
+                <nav>
+                    <a class="click-produtos" href="produtos.html">Produtos</a>
+                    <a class="click-atendimento" href="horario.de.atendimento.html">Horário de atendimento</a>
+                    <a class="click-fale" href="fale.conosco.html">Fale conosco</a>
+                    <a class="click-trabalhe" href="trabalhe.conosco.html">Trabalhe conosco</a>
+                    <a class="click-cotacao" href="cotacao.html">Faça sua cotação</a>       
+                </nav>
+            
+            </div>
+            
         </header>
     <!-- Fim do Menu -->    
         
 
-        <main>
+        <main class="mainindex">
             <div>
                 <h1>TECNOLOGIA PARA O <strong>SEU</strong> NEGÓCIO </h1> 
             </div>
@@ -51,27 +77,24 @@
                 <article>
                     <h2><em>Quem é a TNB TEC - Technology for your business? </em></h2>
                     <p>
-                        <a>A TNB TEC é uma empresa dividida em duas frentes que são especializadas em entrega de resultados</a>
+                        <p>A TNB TEC é uma empresa dividida em duas frentes que são especializadas em entrega de resultados</p>
+                        
+                        <a class="link-corporativo" href="corporativo.html">Equipe de especialistas focadas em atender o mercado corporativo e suas demandas de <strong>infraestrutura em tecnologia</strong></a>
                         <br>  <br>
-                        <a href="corporativo.html">Equipe de especialistas focadas em atender o mercado corporativo e suas demandas de infraestrutura em <strong>tecnologia</strong></a>
-                        <br>  <br>
-                        <a href="desenvolvimento.html">Equipe de especialistas focadas em entender seu negócio e desenvolver uma ou mais <strong>soluções WEB</strong> que lhe trará mais resultados.</a>
+                        <a class="link-desenvolvimento" href="desenvolvimento.html">Equipe de especialistas focadas em entender seu negócio e desenvolver uma ou mais <strong>soluções WEB</strong> que lhe trará mais resultados.</a>
                     </p>
                 </article>           
-            </Section>
-              
-                
-                 
-                
+            </Section>               
         </main>        
 
          
-                <footer id="copyrite">
-
-
-                    <p>11 2735-4962</p>
-                    <p> &copy; Todos os Direitos Reservados  <br> CNPJ: 26.239.457/0001-47 <br>  </p>
-                    
-                </footer>
+        
+        <footer>
+            <p>11 2735-4962</p>
+            <p> &copy; 2021 - Todos os direitos reservados  <br>
+                Feito por <strong>Tnb Tec </strong> 
+                 Technology for your business  
+                 <br> CNPJ: 26.239.457/0001-47 <br>  </p>
+        </footer>
     </body>
 </html>
