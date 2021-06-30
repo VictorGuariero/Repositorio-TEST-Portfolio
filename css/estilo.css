@@ -38,29 +38,46 @@ header {
     background-color: rgb(255, 255, 255);
     margin: auto;
 }
+.rowtop-login-cadastro{
+    position: relative;
+    width: 700px;
+    right: 234px
+}
 .github-img{
     position: absolute;
-    bottom: 128px;
-    left: -29px;
+    bottom: 167px;
+    left: -14%;
     width: 24px;
     height: 24px;
     margin: 5px;
     border: 2px solid #000000;
     border-radius: 50%;
+    cursor: pointer;
+}
+.github-img:hover{
+    opacity: 0.6;
+    color: #072e5d6e;
+    border: 2px solid #072e5d6e;
 }
 
 .whats-img{
     position: absolute;
-    bottom: 129px;
-    left: -60px;
+    bottom: 168px;
+    left: -20%;
     width: 35.5px;
     height: 35.5px;
 }
+.whats-img:hover{
+    opacity: 0.6;
+    color: #072e5d6e;
+    
+}
+
 /* cadastro e Login*/
 .cadastro-login {
     position: relative;
-    bottom: 156px;
-    left: 76%;
+    bottom: 198px;
+    left: 68%;
     margin: auto;
     cursor: pointer;
 }
@@ -118,9 +135,100 @@ header {
     color: rgba(0, 0, 0, 0.289);
 }
 
+.home {
+    position: relative;
+    padding: 10px;
+    top: 77px;
+    left: 150px;
+}
+.home .home-index {
+    font-size: 20px;
+    bottom: 8px;
+    position: relative;
+    padding: 15px;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+.home .home-index:hover{
+    color: rgba(0, 0, 0, 0.289);
+}
+
+
+        /* Barra de Navegação 2 somente para Login e Cadastro
+        .navbar-cadastro-login{
+            position: relative;
+            width: 80%;
+            right: -310px;
+            top: 179px;
+        }
+        /* Produtos
+        .navbar-cadastro-login #click-produtos {
+            font-size: 20px;
+            position: relative;
+            padding: 15px;
+            color: black;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .navbar-cadastro-login #click-produtos:hover{
+            color: rgba(0, 0, 0, 0.289);
+        }
+        /* Atendimento
+        .navbar-cadastro-login #click-atendimento {
+            font-size: 20px;
+            position: relative;
+            padding: 15px;
+            color: black;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .navbar-cadastro-login #click-atendimento:hover{
+            color: rgba(0, 0, 0, 0.289);
+        }
+        /* Fale conosco
+        .navbar-cadastro-login #click-fale {
+            font-size: 20px;
+            position: relative;
+            padding: 15px;
+            color: black;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .navbar-cadastro-login #click-fale:hover{
+            color: rgba(0, 0, 0, 0.289);
+        }
+       
+        /* Trabalhe conosco
+        .navbar-cadastro-login #click-trabalhe {
+            font-size: 20px;
+            position: relative;
+            padding: 15px;
+            color: black;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .navbar-cadastro-login #click-trabalhe:hover{
+            color: rgba(0, 0, 0, 0.289);
+        }
+        /* Faça sua cotação
+        .navbar-cadastro-login #click-cotacao {
+            font-size: 20px;
+            position: relative;
+            padding: 15px;
+            color: black;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .navbar-cadastro-login #click-cotacao:hover{
+            color: rgba(0, 0, 0, 0.289);
+        }
+        */
+
+
 /* Barra de Navegação 2*/
-
-
 .navbar {
     position: relative;
     width: 80%;
@@ -209,6 +317,237 @@ header {
 }
 .link-desenvolvimento:hover{
     color: rgba(0, 0, 0, 0.289);
+}
+
+
+/* container-login*/
+
+.container-login{
+    position: relative;
+    bottom: 214px;
+    left: 787px;
+    background-color: #032146b9;
+    width: 250px;
+    height: 300px;
+    border: 3px solid #0000006e;
+    padding: 11px 20px;
+    border-radius: 93px 11px;
+}
+
+.string-login{
+    color: rgba(255, 255, 255, 0.816);
+    font-family: sans-serif;
+    font-size: 22px;
+    position: relative;
+    left: 69px;    
+}
+
+.username{
+    padding: 5px;
+}
+.username #username{
+    position: absolute;
+    top: 115px;
+    right: 57px;
+    padding: 9px;
+    text-align: center;
+}
+.password{
+    position: absolute;
+    top: 46px;
+    right: 50px;
+    margin: 4px;
+    text-align: center;
+}
+.password #password{
+    position: absolute;
+    top: 114px;
+    right: 3px;
+    padding: 9px;
+    text-align: center;
+}
+.nao-e {
+    color: rgba(255, 255, 255, 0.816);
+    position: absolute;
+    bottom: 18px;
+    left: 23px;
+}
+
+.botao{
+    position: absolute;
+    bottom: 72px;
+    left: 123px;
+}
+.botao #botao{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.816);
+    background: #072e5d;
+    border: none;
+    border-radius: 53% 0%;
+    position: relative;
+    left: -50px;
+    padding: 5px 17px;
+    width: 139px;
+    height: 32px;
+    text-align: center; 
+    cursor: pointer;
+}
+
+.botao #botao:hover{
+    border: 3px solid rgba(255, 255, 255, 0.378);
+    
+
+}
+
+
+.criar-conta{
+    font-size: 15px bold; 
+    border: 2px aliceblue;
+    color: rgba(0, 0, 0, 0.96);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.crie-conta:hover{
+    color: rgba(255, 255, 255, 0.398);
+}
+
+
+
+/*Painel Cadastro*/
+
+.container-cadastro{
+    position: relative;
+    bottom: 214px;
+    left: 787px;
+    background-color: #032146b9;
+    width: 294px;
+    height: 423px;
+    border: 3px solid #0000006e;
+    padding: 11px 20px;
+    border-radius: 93px 11px;
+}
+
+.string-cadastro{
+    color: rgba(255, 255, 255, 0.816);
+    font-family: sans-serif;
+    font-size: 22px;
+    position: relative;
+    left: 58px;    
+}
+
+.escolha-email{
+    position: absolute;
+    top: 46px;
+    right: 50px;
+    margin: 4px;
+    text-align: center;
+}
+.escolha-email #escolha-email{
+    position: absolute;
+    width: 280px;
+    top: 64px;
+    right: -39px;
+    padding: 9px;
+}
+
+.escolha-tel{
+    padding: 5px;
+}
+.escolha-tel #escolha-tel{
+    position: absolute;
+    top: 164px;
+    right: 76px;
+    padding: 9px;
+    text-align: center;
+    
+}
+
+.escolha-username{
+    padding: 5px;
+}
+.escolha-username #escolha-username{
+    position: absolute;
+    top: 214px;
+    right: 76px;
+    padding: 9px;
+    text-align: center;
+    
+}
+.escolha-password{
+    position: absolute;
+    top: 46px;
+    right: 50px;
+    margin: 4px;
+    text-align: center;
+}
+.escolha-password #escolha-password{
+    position: absolute;
+    top: 216px;
+    right: 22px;
+    padding: 9px;
+    text-align: center;
+}
+
+.escolha-password2{
+    position: absolute;
+    top: 46px;
+    right: 50px;
+    margin: 4px;
+    
+}
+.escolha-password2 #escolha-password2{
+    position: absolute;
+    top: 269px;
+    right: 22px;
+    padding: 9px;
+    text-align: center;
+}
+
+.nao-e {
+    color: rgba(255, 255, 255, 0.816);
+    position: absolute;
+    bottom: 18px;
+    left: 23px;
+}
+
+.botao-cadastro {
+    position: absolute;
+    bottom: 42px;
+    left: 150px;
+}    
+
+.botao-cadastro #botao-cadastro{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.816);
+    background: #072e5d;
+    border: none;
+    border-radius: 53% 0%;
+    position: relative;
+    left: -50px;
+    padding: 5px 17px;
+    width: 139px;
+    height: 32px;
+    text-align: center; 
+    cursor: pointer;
+}
+
+.botao-cadastro #botao-cadastro:hover{
+    border: 3px solid rgba(255, 255, 255, 0.378);
+    
+
+}
+
+.crie-conta{
+    font-size: 15px bold; 
+    border: 2px aliceblue;
+    color: rgba(0, 0, 0, 0.96);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.crie-conta:hover{
+    color: rgba(255, 255, 255, 0.398);
 }
 
 /* Footer*/

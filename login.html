@@ -29,10 +29,17 @@
         Primeira estrutura de menu aprendida    -->     
         <!-- Início do Menu -->
         <header>
+            
             <div>
                 <nav id="nav-bar">
                     <div class="logo">
-                    <a href="index.html"><img class="logoinicio" src="./img/LOGO.png" alt="Home e Sobre Nós - Logo TNB TEC"></a>
+                        <a href="index.html">
+                            <img class="logoinicio" src="./img/LOGO.png" alt="Home e Sobre Nós - Logo TNB TEC">
+                        </a>
+                    </div>
+
+                    <div class="home">
+                        <a class="home-index"href="index.html" alt="Home e Sobre Nós"> Sobre Nós </a>
                     </div>
 
                     <div  class="social-media">
@@ -53,42 +60,44 @@
                 
             </div>  
         
-            <hr class="rowtop">
-
-            <div class="navbar">
+            <hr class="rowtop-login-cadastro">
+            <!-- 
+            <div class="navbar-cadastro-login">
                 <nav>
-                    <a class="click-produtos" href="produtos.html">Produtos</a>
-                    <a class="click-atendimento" href="horario.de.atendimento.html">Horário de atendimento</a>
-                    <a class="click-fale" href="fale.conosco.html">Fale conosco</a>
-                    <a class="click-trabalhe" href="trabalhe.conosco.html">Trabalhe conosco</a>
-                    <a class="click-cotacao" href="cotacao.html">Faça sua cotação</a>       
+                    <a id="click-produtos" href="produtos.html">Produtos</a>
+                    <a id="click-atendimento" href="horario.de.atendimento.html">Horário de atendimento</a>
+                    <a id="click-fale" href="fale.conosco.html">Fale conosco</a>
+                    <a id="click-trabalhe" href="trabalhe.conosco.html">Trabalhe conosco</a>
+                    <a id="click-cotacao" href="cotacao.html">Faça sua cotação</a>       
                 </nav>
             
             </div>
-            
+            -->
         </header>
     <!-- Fim do Menu -->     
         <main>
-            <div class="container">
-                <div class="form-box">
+            <div class="container-login">
+                
                 <form action="" method="post">
-                    <div>
-                    <h1>Login</h1>
+                    <div class="string-login">
+                    <h1 >Login</h1>
                     </div>
-                    <div>
-                    <input type="text" name="username" placeholder="Informe seu login" class="form-input">
+                    <div class="username">
+                        <input id="username" type="text" name="username" placeholder="Informe seu login" required>
                     </div>
-                    <div>
-                    <input type="password" name="password" placeholder="Informe sua senha" class="form-input">
+                    <div class="password">
+                        <input id="password" type="password" name="password" minlength="6" maxlength="10" placeholder="Informe sua senha" required>
                     </div>
-                    <div>
-                    <input type="submit" value="Entrar" class="form-btn">
+                    <div class="botao">
+                        <input id="botao" type="submit" value="Entrar">
                     </div>
-                    <div>
-                    Não é registrado? <a href="cadastro.html">Crie uma conta</a>.
+                    <div class="nao-e">
+                        </p class="nao-e"> Não é castrado ? 
+                        <a href="cadastro.html" class="criar-conta">Crie uma conta.</a><p> 
+                        
                     </div>
                 </form>
-                </div>
+               
             </div>
         </main>
         <footer id="copyrite">
